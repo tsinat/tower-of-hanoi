@@ -1,0 +1,47 @@
+.container {
+	margin:2px;
+	float:left;
+	width:360px;
+	min-height:60px;
+	height:auto;
+	position: relative;
+	background-color: blue;
+}
+.smallest{
+	width: 150px;
+	height:60px;
+	background-color:grey;
+	margin: 0 auto;
+}
+.medium {
+	width: 250px;
+	height: 60px;
+	background-color:green;
+	margin: 0 auto;
+}
+.larger {
+	width:350px;
+	height:60px;
+	background-color:brown;
+	margin: 0 auto;
+	position:static;
+	bottom:300;
+}
+.selected{
+	border:5px solid red;
+}
+.first{
+	position:relative;
+	bottom: 100;
+}
+.second {
+	position:relative;
+	/*left: 1500;*/
+	bottom:300;
+}
+.third{
+	position:relative;
+	/*bottom: 0;*/
+	top: 300;
+	right: 0;
+}
