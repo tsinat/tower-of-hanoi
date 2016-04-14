@@ -40,8 +40,8 @@
     }
     function checkGame(){
     	if($('.third').children().length == 3)
-    		console.log('you have won the game');
-    }
+    		var mess =$('message').textContent = 'you have won the game';
+   }
 })($);
 
 //click on on of the container divs
